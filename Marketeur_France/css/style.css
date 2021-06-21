@@ -1,0 +1,299 @@
+body{
+  font-family: "Abel", sans-serif !important;
+}
+
+.mr-bt-100{
+  margin-bottom: 100px;
+}
+
+.pd-tp-100{
+  padding-top: 100px;
+}
+
+.pd-tp-30{
+  padding-top: 30px;
+}
+
+/* HEADER STYLES */
+header{
+  background: url("../images/header/header-image.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  width: 100%;
+}
+
+.vertical-center{
+  display: flex;
+  align-items: center;
+}
+
+header .header-title h1{
+  letter-spacing: 5px;
+  font-size: 50px;
+}
+
+header .container-fluid .sub-title span{
+  letter-spacing: 6px;
+  font-size: 20px;
+}
+
+header .container-fluid .contact-button{
+  margin-top: 30px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 0;
+  letter-spacing: 1px;
+}
+
+header .container-fluid .contact-button:focus{
+  box-shadow: none!important;
+  outline: 0;
+}
+
+header .container-fluid .contact-button:hover{
+  color: white;
+  background-color: black;
+}
+
+
+
+
+/* CAPCITY STYLES */
+
+
+/*capacity header*/
+.capacity-section .container{
+    margin-top: 100px;
+}
+
+.capacity-section .capacity-title{
+  font-size: 24px;
+  letter-spacing: 4px;
+}
+
+.capacity-section .capacity-sub-title{
+  margin-top: 30px;
+  color: #7e7e7e;
+  line-height: 25px;
+}
+
+.capacity-header{
+  margin-bottom: 100px;
+}
+
+
+/*capacity content*/
+.capacity-content .image-capacity-content img{
+  max-width: 60px;
+}
+
+.capacity-content .image-capacity-content{
+  padding-bottom: 30px;
+}
+
+.title-capacity-content{
+  margin-bottom: 20px;
+}
+
+.title-capacity-content h4{
+  letter-spacing: 2px;
+}
+
+.description-capacity-content{
+  color: #7e7e7e;
+}
+
+.pen-box-image{
+  margin-top:80px;
+}
+
+.capacity-section{
+  padding-bottom: 100px;
+}
+
+/* PLANNING SECTION */
+
+.planning{
+  border-top: 1px solid #e6e6e6;
+}
+
+.header-planning-title{
+  margin-bottom: 30px;
+}
+
+.content-planning .col-12:first-child p{
+  line-height: 30px;
+  color: #7e7e7e;
+}
+
+.description-list a{
+  letter-spacing: 3px;
+  color: black;
+}
+
+
+/* PROMOTION SECTION */
+
+
+/* promotion header */
+.promotion-section{
+  background: url(../images/promotion/texture.png);
+  padding: 100px 0px;
+  margin-top: 100px;
+}
+
+
+.link-promotion{
+  height: 130px;
+  background: rgba(34, 34, 34, .05) !important;
+}
+
+.link-promotion:hover{
+  background: white !important;
+}
+
+.link-promotion.active{
+  background: white !important;
+}
+
+.icon-promotion{
+  max-width: 60px;
+}
+
+/* promotion-content */
+
+.promotion-content{
+  margin-top: 30px !important;
+}
+
+.promotion-content .over-title-promotion{
+  color:#7e7e7e;
+  letter-spacing: 2px;
+}
+
+.promotion-content .header-title{
+  padding-bottom: 30px;
+}
+
+.promotion-title{
+  letter-spacing: 4px;;
+}
+
+.text-content-promotion{
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+/* SUBSCRUPTION SECTION */
+
+.subscription-section{
+  background:#f8f8f8;
+  padding: 5%;
+}
+
+.subscription-title h3{
+  color:#d6b161;
+}
+
+.subscription-title span{
+  color:#7e7e7e;
+}
+
+.subscribe-form{
+  margin-top: 50px;
+}
+
+.input-subscription{
+  width: 60%;
+  border: none;
+  outline:none;
+}
+
+.submit-subscribe{
+  background: #222;
+  margin-left: 10px;
+  padding: 15px 3%;
+  border: none;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.submit-subscribe:hover{
+  background: #d6b161;
+}
+
+
+/* PORTFOLIO SECTION */
+.portfolio{
+  padding: 5%;
+}
+
+.portfolio .image-block{
+  border-right: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+}
+
+.portfolio .slider-image{
+  border-radius: 50%;  
+}
+
+.slider-indicators button{
+  border-radius: 50%;
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #323232 !important;
+}
+
+.slider-block{
+  height: 100%;
+}
+
+
+
+/* CONTACT-SECTION */
+
+.contact-section{
+  background: #222222;
+  padding: 5%;
+}
+
+.contact-logo-box{
+  color: #7e7e7e;
+  line-height: 30px;
+}
+
+.nav-contact .nav-title{
+  color: white;
+}
+
+.nav-contact a{
+  color: #A2A2A2;
+  border-bottom: 1px solid #333333;
+}
+
+.nav-contact a:hover{
+  color: #d6b161;
+}
+
+/*.contact-button{
+  background:none !important;
+  border:none !important;
+  border-radius: 0 !important;
+  letter-spacing: 2px;
+}
+
+.contact-button:hover{
+  background:#d6b161 !important;
+}*/
+
+/* FOOTER */
+
+footer{
+  background: #1B1B1B;
+  color: #6f7273;
+  padding: 2%;
+}

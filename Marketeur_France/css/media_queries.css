@@ -1,0 +1,63 @@
+
+/* HEADER QUERIES*/
+
+@media (max-width: 1321px){
+  header{
+    background-position: 30% 50%;
+  }
+}
+
+@media (max-width: 768px){
+  header{
+    text-align: center;
+    background-position: 20% 50%;
+  }
+}
+
+@media (max-width: 523px){
+  header .header-title h1{
+    font-size: 40px;
+  }
+
+  header .sub-title span{
+    font-size: 15px !important;
+  }
+
+  header .contact-button{
+    font-size: 12px;
+  }
+}
+
+
+/*CAPACITY QUERIES*/
+
+@media (max-width: 768px){
+  .pen-box-image{
+    display: none;
+  }
+  .capacity-content article:nth-child(1){
+    margin-top: 100px;
+  }
+}
+
+
+/* SUBSCRIPTION QUERIES */
+
+@media (max-width: 768px){
+  .input-subscription{
+    width: 100%;
+  }
+  .submit-subscribe{
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+/* PORTFOLIO QUERIES */
+
+@media (max-width: 768px){
+  .portfolio .image-block img{
+    width: 60%;
+  }
+}
